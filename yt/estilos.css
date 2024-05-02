@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    text-align: center ;
+}
+#site{
+    width: 1000px;
+    margin: 0 auto ;
+    display: grid;
+    /* grid-template-columns: auto auto  ; */
+    /* grid-template-columns:30% 70% ; */
+    /* grid-template-columns: 100px 300px ; */
+    grid-template-areas: 
+    'topo       topo          topo         topo       topo'
+    'videop     videop        videop       video1     descricaov1'
+    'videop     videop        videop       video2     descricaov2'
+    'descricao1 descricao1    descricao1   video3     descricaov3'
+    'descricao2 descricao2    descricao2   video3     descricaov3'
+    'ftpc1      comentario1   comentario1  video3     descricaov3'
+    'ftpc2      comentario2   comentario2  video4     descricaov4'
+    'ftpc3      comentario3   comentario3  video4     descricaov4'
+    'ftpc4      comentario4   comentario4  video4     descricaov4'
+;
+    
+}
+#site{
+    width: 1000px;
+    margin: 100px auto ;
+    display: grid;
+    
+}
+#topo{
+    background-color: #ffc2d4;
+    grid-area: topo;
+    height: 50px;
+}
+#videop{
+    background-color:#f7d1cd;
+    grid-area: videop;
+    width: 1050px;
+    height: 300px;
+} 
+#video1{
+    background-color: #dec9e9;
+    grid-area: video1;
+    width: 200px;
+    height: 150px;
+}
+#video2{
+    background-color: #dac3e8;
+    grid-area: video2;
+    width: 200px;
+    height: 150px;
+}
+#video3{
+    background-color: #d2b7e5;
+    grid-area: video3;
+    width: 200px;
+    height: 150px;
+}
+#video4{
+    background-color: #c19ee0;
+    grid-area: video4;
+    width: 200px;
+    height: 150px;
+}
+
+#descricao1{
+    background-color:#ffe5ec ;
+    grid-area: descricao1;
+    width: 1050px;
+    height: 50px;
+}
+#descricao2{
+    background-color:#ffc2d1 ;
+    grid-area: descricao2;
+    width: 1050px;
+    height: 50px;
+}
+#comentario1{
+    background-color: #e3f2fd;
+    grid-area: comentario1;
+    width: 1000px;
+    height: 50px;
+}
+#comentario2{
+    background-color: #bbdefb;
+    grid-area: comentario2;
+    width: 1000px;
+    height: 50px;
+}
+#comentario3{
+    background-color: #90caf9;
+    grid-area: comentario3;
+    width: 1000px;
+    height: 50px;
+}
+#comentario4{
+    background-color: #64b5f6;
+    grid-area: comentario4;
+      width: 1000px;
+    height: 50px;
+}
+#descricaov1{
+    background-color: #64b5f6;
+    grid-area: descricaov1;
+      width: 200px;
+    height: 150px;
+}
+#descricaov2{
+    background-color: #64b5f6;
+    grid-area: descricaov2;
+      width: 200px;
+    height: 150px;
+}
+#descricaov3{
+    background-color: #64b5f6;
+    grid-area: descricaov3;
+      width: 200px;
+    height: 150px;
+}
+#descricaov4{
+    background-color: #64b5f6;
+    grid-area: descricaov4;
+    width: 200px;
+    height: 150px;
+}
+#ftpc1{
+    background-color: #457b9d;
+    grid-area: ftpc1;
+    width: 50px;
+    height: 50px;
+}
+#ftpc2{
+    background-color: #457b9d;
+    grid-area: ftpc2;
+    width:50px;
+    height: 50px;
+}
+#ftpc3{
+    background-color: #457b9d;
+    grid-area: ftpc3;
+    width:50px;
+    height: 50px;
+}
+#ftpc4{
+    background-color: #457b9d;
+    grid-area: ftpc4;
+    width: 50px;
+    height: 50px;
+}
